@@ -1,3 +1,6 @@
+import Bills from "./Components/Bills";
+import ContactForm from "./Components/ContactForm";
+import Faqs from "./Components/Faqs";
 import HeroSection from "./Components/HeroSection";
 import Shop from "./Components/Shop";
 import Wallet from "./Components/Wallet";
@@ -9,6 +12,9 @@ const Home = () => {
         <HeroSection />
         <Wallet />
         <Shop />
+        <Bills />
+        <Faqs />
+        <ContactForm />
       </div>
     </>
   );
