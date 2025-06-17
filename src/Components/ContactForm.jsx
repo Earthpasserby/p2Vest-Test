@@ -1,7 +1,7 @@
 const ContactForm = () => {
   return (
-    <div className="bg-[#4F0072] text-white px-6 md:px-16 py-20 relative h-full ">
-      <div className="bg-[#6D1F8F66] p-10 md:p-16 rounded-2xl max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start relative">
+    <div className="bg-[#4F0072] text-white px-6 md:px-16 py-20  h-full ">
+      <div className="bg-[#6D1F8F66] p-10 md:p-16 rounded-2xl max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start relative mb-8">
         {/* Left Side */}
         <div className="space-y-6">
           <h2 className="text-4xl font-bold font-paytone">Get in touch</h2>
@@ -81,29 +81,53 @@ const ContactForm = () => {
             Send message
           </button>
         </form>
-        {/* Adjusted image positioning */}
-        <div className="hidden md:block absolute bottom-30 right-0 md:-right-15 md:w-30 lg:-right-36 object-contain overflow-hidden w-40 aspect-square rounded-2xl animate-float-slow">
+        <div className="hidden md:block absolute md:inset-y-50 right-0 md:-right-16 lg:inset-y-60 md:w-32 md:h-32 lg:w-48 lg:h-48 lg:-right-36 overflow-hidden animate-float-slo">
           <img
             src="/src/assets/images/message.png"
             alt="HeroImg"
             className="w-full h-full"
           />
         </div>
+
+        {/* Adjusted image positioning */}
+        {/* <div className="hidden md:block absolute inset-y-70 right-0 md:-right-15 md:w-30 lg:-right-18   overflow-hidden  aspect-square  animate-float-slow"> */}
+        {/* <img */}
+        {/* //   src="/src/assets/images/message.png" */}
+        {/* //   alt="HeroImg" */}
+        {/* //   className=" w-full h-full  " */}
+        {/* // /> */}
+        {/* </div> */}
       </div>
-      <div className="hidden md:block absolute bottom-0 right-0 md:right-5 md:w-30 lg:right-20 object-contain overflow-hidden w-20 aspect-square rounded-2xl animate-float-slow z-10">
-        <img
-          src="/src/assets/images/phon.png"
-          alt="HeroImg"
-          className="w-full h-full"
-        />
+      {/* <div className="hidden md:block absolute bottom-0 right-0 md:right-5 md:w-30 lg:right-20 object-contain overflow-hidden w-20 aspect-square rounded-2xl animate-float-slow z-10"> */}
+      {/* <img */}
+      {/* src="/src/assets/images/phon.png" */}
+      {/* alt="HeroImg" */}
+      {/* className="w-full h-full" */}
+      {/* /> */}
+      {/* </div> */}
+      <div class="relative size-32">
+        <div class="absolute -right-12 -bottom-20 size-64 ...">
+          <img
+            src="/src/assets/images/check.png"
+            alt="HeroImg"
+            className="w-full "
+          />
+        </div>
       </div>
-      <div className="hidden md:block absolute -bottom-10 left-0 md:left-0 lg:left-0 object-cover overflow-hidden aspect-square  animate-float-slow">
-        <img
-          src="/src/assets/images/check.png"
-          alt="HeroImg"
-          className="w-full h-[238px] object-cover"
-        />
-      </div>
+      {/* <div className="hidden md:block absolute -bottom-20 left-10 md:left-0 lg:left-20 object-cover overflow-hidden aspect-square  animate-float-slow"> */}
+      {/* <img */}
+      {/* src="/src/assets/images/check.png" */}
+      {/* alt="HeroImg" */}
+      {/* className="w-full h-[238px]" */}
+      {/* /> */}
+      {/* </div> */}
+      {/* <div class="relative size-40"> */}
+      {/* <div class="absolute bottom-0 left-0 size-48 ..."> */}
+      {/* <img */}
+      {/* // src="/src/assets/images/check.png" // alt="HeroImg" // */}
+      {/* className="w-full " // /> */}
+      {/* </div> */}
+      {/* </div> */}
     </div>
   );
 };

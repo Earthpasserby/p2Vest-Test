@@ -45,7 +45,7 @@ const Faqs = () => {
             onClick={() => toggle(i)}
           >
             <div className="flex justify-between items-center">
-              <h3 className="text-[40px] text-[#CA92E3] font-normal leading-[60px] font-paytone">
+              <h3 className="text-[20px] md:text-[25px] lg:text-[40px]  text-[#CA92E3] font-normal leading-[60px] font-paytone">
                 {q}
               </h3>
               <span>
