@@ -4,7 +4,7 @@ const HeroSection = () => {
       {/* Hide the floating image on small screens, show on md and above */}
       <div className="hidden md:block absolute top-20 right-12 md:right-24 lg:right-24 overflow-hidden w-20 md:w-24 aspect-square rounded-2xl animate-float-slow">
         <img
-          src="/src/assets/images/Eating.png"
+          src="/assets/images/Eating.png"
           alt="HeroImg"
           className="w-full h-full object-cover"
         />
@@ -14,28 +14,28 @@ const HeroSection = () => {
           nd
         </span>
         <img
-          src="/src/assets/images/A.png"
+          src="/assets/images/A.png"
           alt="HeroImg"
           className="w-full h-full object-cover"
         />
       </div>
       <div className="hidden md:block absolute inset-y-1/3 -translate-y-1/3 left-10 md:left-30 lg:left-58 overflow-hidden w-20 md:w-24 aspect-square rounded-2xl animate-float-slow">
         <img
-          src="/src/assets/images/Currency.png"
+          src="/assets/images/Currency.png"
           alt="HeroImg"
           className="w-full h-full object-cover"
         />
       </div>
       <div className="hidden md:block absolute bottom-28 left-0 md:left-0 lg:left-0 overflow-hidden w-20 md:w-32 md:h-[280px] aspect-square rounded-2xl animate-float-slow">
         <img
-          src="/src/assets/images/Shopping.png"
+          src="/assets/images/Shopping.png"
           alt="HeroImg"
           className="w-full h-full object-cover"
         />
       </div>
       <div className="hidden md:block absolute inset-y-1/2 -translate-y-1/2 right-10 md:right-30 lg:right-58 overflow-hidden w-20 md:w-24 aspect-square rounded-2xl animate-float-slow">
         <img
-          src="/src/assets/images/Paper Plane.png"
+          src="/assets/images/Paper Plane.png"
           alt="HeroImg"
           className="w-full h-full object-cover"
         />
@@ -45,7 +45,7 @@ const HeroSection = () => {
           Se
         </span>
         <img
-          src="/src/assets/images/B.png"
+          src="/assets/images/B.png"
           alt="HeroImg"
           className="w-full h-full object-cover"
         />
@@ -53,7 +53,7 @@ const HeroSection = () => {
 
       <div className="flex flex-col items-center w-full max-w-md relative">
         <img
-          src="/src/assets/images/Mask.png"
+          src="/assets/images/Mask.png"
           alt="HeroImg"
           className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto mb-6"
         />

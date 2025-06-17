@@ -6,7 +6,7 @@ const Footer = () => {
           <div>
             <span>
               <img
-                src="/src/assets/images/link.png"
+                src="/assets/images/link.png"
                 alt="RevveLogo"
                 className="w-[20px] h-[20px]"
               />
@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <span>
               <img
-                src="/src/assets/images/facebook 1.png"
+                src="/assets/images/facebook 1.png"
                 alt="RevveLogo"
                 className="w-[20px] h-[20px]"
               />
@@ -24,7 +24,7 @@ const Footer = () => {
           <div>
             <span>
               <img
-                src="/src/assets/images/twitter 1.png"
+                src="/assets/images/twitter 1.png"
                 alt="RevveLogo"
                 className="w-[20px] h-[20px]"
               />
@@ -33,7 +33,7 @@ const Footer = () => {
           <div>
             <span>
               <img
-                src="/src/assets/images/ig.png"
+                src="/assets/images/ig.png"
                 alt="RevveLogo"
                 className="w-[20px] h-[20px]"
               />

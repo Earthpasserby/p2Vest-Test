@@ -3,7 +3,7 @@ const Bills = () => {
     <>
       <div
         className="bg-cover h-[1100px] md:h-[1000px] lg:h-[1000px] "
-        style={{ backgroundImage: "url('/src/assets/images/bg.png')" }}
+        style={{ backgroundImage: "url('/assets/images/bg.png')" }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center">
           <div className="flex justify-start ml-10">
@@ -26,7 +26,7 @@ const Bills = () => {
           </div>
           <div className="flex justify-end mr-10 ">
             <img
-              src="/src/assets/images/cal.png"
+              src="/assets/images/cal.png"
               alt="HeroImg"
               className="w-[340px] h-[588px]"
             />

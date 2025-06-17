@@ -14,7 +14,7 @@ const ContactForm = () => {
             <p className="font-DmSans">
               <span>
                 <img
-                  src="/src/assets/images/Vector (1).png"
+                  src="/assets/images/Vector (1).png"
                   alt="PhoneIcon"
                   className="inline-block mr-2 w-4 h-4"
                 />
@@ -25,7 +25,7 @@ const ContactForm = () => {
               {" "}
               <span>
                 <img
-                  src="/src/assets/images/Vector.png"
+                  src="/assets/images/Vector.png"
                   alt="MessageIcon"
                   className="inline-block mr-2 w-4 h-4"
                 />
@@ -35,7 +35,7 @@ const ContactForm = () => {
             <p className="font-DmSans">
               <span>
                 <img
-                  src="/src/assets/images/pin 1.png"
+                  src="/assets/images/pin 1.png"
                   alt="LocationIcon"
                   className="inline-block mr-2 w-4 h-4"
                 />
@@ -83,7 +83,7 @@ const ContactForm = () => {
         </form>
         <div className="hidden md:block absolute md:inset-y-50 right-0 md:-right-16 lg:inset-y-60 md:w-32 md:h-32 lg:w-48 lg:h-48 lg:-right-36 overflow-hidden animate-float-slo">
           <img
-            src="/src/assets/images/message.png"
+            src="/assets/images/message.png"
             alt="HeroImg"
             className="w-full h-full"
           />
@@ -108,7 +108,7 @@ const ContactForm = () => {
       <div class="relative size-32">
         <div class="absolute -right-12 -bottom-20 size-64 ...">
           <img
-            src="/src/assets/images/check.png"
+            src="/assets/images/check.png"
             alt="HeroImg"
             className="w-full "
           />

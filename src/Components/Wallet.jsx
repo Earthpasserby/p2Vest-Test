@@ -17,27 +17,27 @@ const Wallet = () => {
 
         <div className="relative w-full h-[752px] mx-auto">
           <img
-            src="/src/assets/images/iPhone.png"
+            src="/assets/images/iPhone.png"
             alt="HeroImg"
             className="w-full h-full "
           />
           <img
-            src="/src/assets/images/USD.png"
+            src="/assets/images/USD.png"
             alt="USD"
             className="absolute top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] md:w-[328px] h-auto z-10"
           />
           <img
-            src="/src/assets/images/CAD.png"
+            src="/assets/images/CAD.png"
             alt="CAD"
             className="absolute top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[75%] md:w-[328px] h-auto z-20"
           />
           <img
-            src="/src/assets/images/GHA.png"
+            src="/assets/images/GHA.png"
             alt="GHA"
             className="absolute -top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] md:w-[328px] h-auto z-30"
           />
           <img
-            src="/src/assets/images/NGN.png"
+            src="/assets/images/NGN.png"
             alt="NGN"
             className="absolute -top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[65%] md:w-[328px] h-auto z-40"
           />
@@ -45,7 +45,7 @@ const Wallet = () => {
 
         <div className="text-center md:flex md:justify-center">
           <img
-            src="/src/assets/images/Girl.png"
+            src="/assets/images/Girl.png"
             alt="Girl"
             className="block w-full max-w-[414px] h-auto  object-cover "
           />
