@@ -90,7 +90,7 @@ const ContactForm = () => {
           />
         </div>
       </div>
-      <div className="hidden md:block absolute bottom-0 right-0 md:-right-15 md:w-30 lg:right-20 object-contain overflow-hidden w-20 aspect-square rounded-2xl animate-float-slow z-10">
+      <div className="hidden md:block absolute bottom-0 right-0 md:right-5 md:w-30 lg:right-20 object-contain overflow-hidden w-20 aspect-square rounded-2xl animate-float-slow z-10">
         <img
           src="/src/assets/images/phon.png"
           alt="HeroImg"
@@ -103,9 +103,6 @@ const ContactForm = () => {
           alt="HeroImg"
           className="w-full h-[238px] object-cover"
         />
-      </div>
-      <div>
-        <h5>ueuqeuqpqhp9q</h5>
       </div>
     </div>
   );
