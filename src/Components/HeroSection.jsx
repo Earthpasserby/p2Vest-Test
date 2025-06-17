@@ -1,3 +1,8 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+
+import "swiper/css";
+
 const HeroSection = () => {
   return (
     <section className="relative flex flex-col items-center overflow-hidden py-20 bg-white md:mb-35 mb-0">
@@ -51,17 +56,69 @@ const HeroSection = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center w-full max-w-md relative">
-        <img
-          src="/assets/images/Mask.png"
-          alt="HeroImg"
-          className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto mb-6"
-        />
-        <h3 className="text-center text-lg sm:text-xl md:text-3xl font-bold text-[#000000] mb-4">
-          Send and Receive <br />
-          Money
-        </h3>
-      </div>
+      <Swiper
+        modules={[Autoplay, Pagination]}
+        spaceBetween={30}
+        slidesPerView={1}
+        loop={true}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        pagination={{ clickable: true }}
+        className="w-full max-w-md"
+      >
+        <SwiperSlide>
+          <div className="flex flex-col items-center w-full relative">
+            <img
+              src="/assets/images/g.png"
+              alt="HeroImg"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto mb-6"
+            />
+            <h3 className="text-center text-lg sm:text-xl md:text-3xl font-bold text-[#000000] mb-4">
+              Send and Receive <br />
+              Money
+            </h3>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="flex flex-col items-center w-full relative">
+            <img
+              src="/assets/images/Mask.png"
+              alt="HeroImg2"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto mb-6"
+            />
+            <h3 className="text-center text-lg sm:text-xl md:text-3xl font-bold text-[#000000] mb-4">
+              Send and Receive <br />
+              Money
+            </h3>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col items-center w-full relative">
+            <img
+              src="/assets/images/happy.png"
+              alt="HeroImg2"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto mb-6"
+            />
+            <h3 className="text-center text-lg sm:text-xl md:text-3xl font-bold text-[#000000] mb-4">
+              Send and Receive <br />
+              Money
+            </h3>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex flex-col items-center w-full relative">
+            <img
+              src="/assets/images/smile.png"
+              alt="HeroImg2"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto mb-6"
+            />
+            <h3 className="text-center text-lg sm:text-xl md:text-3xl font-bold text-[#000000] mb-4">
+              Send and Receive <br />
+              Money
+            </h3>
+          </div>
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 };

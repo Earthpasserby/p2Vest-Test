@@ -34,17 +34,17 @@ const Shop = () => {
             <img
               src="/assets/images/Frame 428.png"
               alt="gridImg"
-              className=" w-[125px]  sm:w-[90px]  md:w-[120px] h-auto absolute top-[57%] lg:left-1 left-10 -translate-x-1/2 -translate-y-1/2"
+              className=" w-[125px]  sm:w-[90px]  md:w-[120px] lg:w-[30%] h-auto absolute top-[57%] lg:left-0 left-10 -translate-x-1/2 -translate-y-1/2"
             />
             <img
               src="/assets/images/Frame 427.png"
               alt="gridImg"
-              className="w-[110px]  sm:w-[90px]  md:w-[120px]   h-auto absolute top-[30%] lg:left-33  right-22 -translate-x-1/2 -translate-y-1/2"
+              className="w-[110px]  sm:w-[90px]  md:w-[120px] lg:w-[30%]  h-auto absolute top-[30%] lg:right-35  right-22 -translate-x-1/2 -translate-y-1/2"
             />
             <img
               src="/assets/images/Frame 429.png"
               alt="gridImg"
-              className="absolute  w-[150px] sm:w-[180px] md:w-[220px] lg:w-[256px]  h-auto top-[44%] -right-4 lg:-right-14 md:-right-24 -translate-y-1/2 -translate-y-1/2 "
+              className="absolute  w-[150px] sm:w-[180px] md:w-[220px] lg:w-[50%]  h-auto top-[44%] -right-4 lg:-right-12 md:-right-24 -translate-y-1/2 -translate-y-1/2 "
             />
           </div>
         </div>

@@ -9,7 +9,7 @@ import Wallet from "./Components/Wallet";
 const Home = () => {
   return (
     <>
-      <div className="w-full h-full">
+      <div className="w-full h-full !scroll-smooth">
         <HeroSection />
         <Wallet />
         <Shop />

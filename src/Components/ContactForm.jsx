@@ -1,7 +1,7 @@
 const ContactForm = () => {
   return (
     <div className="bg-[#4F0072] text-white px-6 md:px-16 py-20  h-full ">
-      <div className="bg-[#6D1F8F66] p-10 md:p-16 rounded-2xl max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start relative mb-8">
+      <div className="bg-[#6D1F8F66] p-10 md:p-16 rounded-2xl mx-auto grid md:grid-cols-2 gap-10 items-start relative mb-8">
         {/* Left Side */}
         <div className="space-y-6">
           <h2 className="text-4xl font-bold font-paytone">Get in touch</h2>
@@ -46,13 +46,13 @@ const ContactForm = () => {
         </div>
 
         {/* Right Side */}
-        <form className="space-y-6">
+        <form className="space-y-8">
           <div>
             <label className="block mb-1 text-sm">Fullname</label>
             <input
               type="text"
               placeholder="Firstname Lastname"
-              className="w-full px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-[400px] px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
             />
           </div>
 
@@ -61,7 +61,7 @@ const ContactForm = () => {
             <input
               type="email"
               placeholder="Samuel@mail.com"
-              className="w-full px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-[400px] px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
             />
           </div>
 
@@ -70,18 +70,18 @@ const ContactForm = () => {
             <textarea
               placeholder="Type here..."
               rows={4}
-              className="w-full px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-[400px] px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="bg-white text-[#000] w-full px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+            className="bg-white text-[#000] w-[400px] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
           >
             Send message
           </button>
         </form>
-        <div className="hidden md:block absolute md:inset-y-50 right-0 md:-right-16 lg:inset-y-60 md:w-32 md:h-32 lg:w-48 lg:h-48 lg:-right-36 overflow-hidden animate-float-slo">
+        <div className="hidden md:block absolute md:inset-y-50 right-0 md:-right-16 lg:inset-y-60 md:w-32 md:h-32 lg:w-38 lg:h-38 lg:-right-15 overflow-hidden animate-float-slo">
           <img
             src="/assets/images/message.png"
             alt="HeroImg"
@@ -106,7 +106,7 @@ const ContactForm = () => {
       {/* /> */}
       {/* </div> */}
       <div class="relative size-32">
-        <div class="absolute -right-12 -bottom-20 size-64 ...">
+        <div class="absolute -right-8 -bottom-20 size-60 ...">
           <img
             src="/assets/images/check.png"
             alt="HeroImg"
