@@ -21,8 +21,10 @@ const Faqs = () => {
     <div className="bg-[#4F0072] text-white px-6 md:px-16 py-12 grid md:grid-cols-2 gap-12">
       {/* Left Column */}
       <div className="space-y-6 py-20">
-        <h2 className="text-4xl font-bold">FAQs</h2>
-        <p className="text-sm max-w-md">
+        <h2 className="text-[52px] font-normal font-paytone leading-[60px]">
+          FAQs
+        </h2>
+        <p className="text-sm max-w-md font-DmSans font-bold leading-[20px] pt-8">
           Here are some basic questions and <br /> answers to help you get
           started.
         </p>
@@ -43,7 +45,9 @@ const Faqs = () => {
             onClick={() => toggle(i)}
           >
             <div className="flex justify-between items-center">
-              <h3 className="text-lg font-semibold">{q}</h3>
+              <h3 className="text-[40px] text-[#CA92E3] font-normal leading-[60px] font-paytone">
+                {q}
+              </h3>
               <span>
                 {activeIndex === i ? (
                   <Minus className="w-5 h-5" />
