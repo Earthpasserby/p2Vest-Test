@@ -1,7 +1,7 @@
 const ContactForm = () => {
   return (
-    <div className="bg-[#4F0072] text-white px-6 md:px-16 py-20  h-full ">
-      <div className="bg-[#6D1F8F66] p-10 md:p-16 rounded-2xl mx-auto grid md:grid-cols-2 gap-10 items-start relative mb-8">
+    <div className="bg-[#4F0072] relative z-10 text-white px-6 md:px-16 py-20  h-full ">
+      <div className="bg-[#6D1F8F66] relative z-10 p-10 md:p-16 rounded-2xl mx-auto grid md:grid-cols-2 gap-10 items-start  mb-8">
         <div className="space-y-6">
           <h2 className="text-4xl font-bold font-paytone">Get in touch</h2>
 
@@ -50,7 +50,7 @@ const ContactForm = () => {
             <input
               type="text"
               placeholder="Firstname Lastname"
-              className="w-[400px] px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-full px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
             />
           </div>
 
@@ -59,7 +59,7 @@ const ContactForm = () => {
             <input
               type="email"
               placeholder="Samuel@mail.com"
-              className="w-[400px] px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-full px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
             />
           </div>
 
@@ -68,13 +68,13 @@ const ContactForm = () => {
             <textarea
               placeholder="Type here..."
               rows={4}
-              className="w-[400px] px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-full px-4 py-3 bg-transparent border border-white/60 rounded-md placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="bg-white text-[#000] w-[400px] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+            className="bg-white text-[#000] w-full px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
           >
             Send message
           </button>
@@ -86,6 +86,13 @@ const ContactForm = () => {
             className="w-full h-full"
           />
         </div>
+      </div>
+      <div class="absolute -right-0 bottom-30 w-40 h-40 z-0 ...">
+        <img
+          src="/assets/images/phon.png"
+          alt="HeroImg"
+          className="w-full h-full object-contain "
+        />
       </div>
       <div class="relative size-32">
         <div class="absolute -right-8 -bottom-20 size-60 ...">
