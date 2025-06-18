@@ -44,7 +44,7 @@ const Shop = () => {
             <img
               src="/assets/images/Frame 429.png"
               alt="gridImg"
-              className="absolute  w-[150px] sm:w-[180px] md:w-[220px] lg:w-[50%]  h-auto top-[44%] -right-4 lg:-right-12 md:-right-24 -translate-y-1/2 -translate-y-1/2 "
+              className="absolute  w-[150px] sm:w-[180px] md:w-[220px] lg:w-[50%]  h-auto top-[44%] -right-4 lg:-right-12 md:-right-24 -translate-y-1/2 "
             />
           </div>
         </div>
